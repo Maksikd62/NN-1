@@ -1,7 +1,7 @@
 import numpy as np
 from model.nn import create_nn_model, train_nn_model
 from model.polynomial_regression import create_polynomial_model, predict_with_polynomial_model
-from data import generate_data
+from data.trip_data import generate_data
 from plot_results import plot_results
 
 X, y = generate_data()
